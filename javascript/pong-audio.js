@@ -52,15 +52,15 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("brown.mp3");
+export var ambientSound = new soundFile("Puppet Combo Murder House OST - Death Bells_[_YouConvert.net_].mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("Puppet Combo Murder House OST - Death Bells_[_YouConvert.net_].mp3");
+export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = 0;
+adventureMusic.player.volume.value = -16;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
