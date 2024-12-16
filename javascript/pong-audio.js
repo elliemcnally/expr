@@ -60,7 +60,7 @@ ambientSound.player.volume.value = -20; //turn down volume
 export var adventureMusic = new soundFile("Puppet Combo Murder House OST - Death Bells_[_YouConvert.net_].mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-ambientSound.player.volume.value = 0; //turn up volume
+ambientSound.player.volume.value = -6
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
